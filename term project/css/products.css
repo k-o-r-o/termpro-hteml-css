@@ -1,0 +1,86 @@
+.item1 {
+  box-shadow: 1px 6px 6px 1px #444;
+  max-width: 90%;
+  margin-top: 5%;
+  margin: auto;
+  text-align: center;
+  font-family: Open_Sans;
+  margin-top: 1%;  
+}
+
+.item1 h1 {
+  color: #002850;
+  text-decoration: underline 1.5px black;
+}
+
+.price {
+  color: rgb(208, 0, 0);
+  font-size: 20px;
+}
+
+.price span {
+  color: #444;
+  font-size: 20px;
+}
+.price s {
+  color: black;
+}
+
+.item1 button {
+  border: #002850;
+  padding: 12px;
+  color: white;
+  background-color: #002850;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+/* table styling */
+.item1 button:hover {
+  background-color: #013b76;
+}
+
+.description {
+  font-size: 20px;
+}
+
+
+table.product_table {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  align-items: center;
+  background-color: #ebf6ff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #002850;
+  border-style: solid;
+  color: #000000;
+}
+
+table.product_table td, table.product_table th {
+  border-width: 2px;
+  border-color: #002850;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.product_table thead {
+  background-color: #4763fe;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+/* moble laying   INSERT WIDTH 100% FOR IMAGE */
+
+
+@media screen and (max-width: 768px) {
+  table.product_table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
